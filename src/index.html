@@ -6,7 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 	<title>
-		Midias de Guarapuava | Prefeitura de Guarapuava </title>
+		Guia Gastronomico | Prefeitura de Guarapuava 
+	</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Midias">
@@ -236,22 +237,14 @@
 	<section class="restaurante-menu">
 
 		<section class="restaurant-cards">
-			<div class="card" >
-				<div class="card-image">
-					<img src="/imgGuiaGastronomico/restaurante1.png" alt="Foto do Restaurante 1">
-					<div class="status-circle open"></div>
-				</div>
-				<div class="container w-50">
-					<div class="card">
-					  <div class="card-body">
-						<ul id="restaurantes-list" class="text-center">
-					  </div>
-					</div>
-				  </div>
-			</div>
-
+			<body onload="criarCardsDeRestaurantes()">
+				<section class="restaurante-menu">
+				  <section class="restaurant-cards">
+				  </section>
+				</section>
+				<script src="/Objects/Restaurante.js"></script>
+			  </body>
 	</section>
-
 
 	<footer>
 		<div class="scroll-top" style="right: -100px; display: none;">
