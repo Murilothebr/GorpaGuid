@@ -30,22 +30,13 @@ function criarCardsDeRestaurantes() {
   const container = document.querySelector(".restaurant-cards");
   restaurantes.forEach((restaurante) => {
     const card = `
-      <div class="card" >
-        <div class="card-image">
-          <img src="${restaurante.imagem}" alt="Foto do ${restaurante.nome}">
-          <div class="status-circle open"></div>
-        </div>
-        <div class="container w-50">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">${restaurante.nome}</h5>
-              <p class="card-text">${restaurante.endereco}</p>
-              <p class="card-text">${restaurante.telefone}</p>
-              <p class="card-text">${restaurante.horarioFuncionamento}</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="card">
+    <h1 class="text-center h1">${restaurante.nome}</h1>
+    <div class="card-image">
+      <img src="${restaurante.imagem}" alt="Foto do ${restaurante.nome}">
+      <div class="status-circle open"></div>
+    </div>
+  </div>
     `;
     
     container.innerHTML += card;

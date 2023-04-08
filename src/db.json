@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Burger King",
-      "imagem": "https://s2.glbimg.com/V0vLGchlI0S7Xll4emaGMIJZSLU=/940x523/e.glbimg.com/og/ed/f/original/2021/01/07/bk-novo_logo.jpg",
+      "imagem": "/imgGuiaGastronomico/restaurante2.png",
       "endereco": "5",
       "telefone": "5",
       "horarioFuncionamento": "5"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Pigalle",
-      "imagem": "https://cdn.neemo.com.br/uploads/settings_franquia/logo/1434/k6gF8xzw.jpeg",
+      "imagem": "/imgGuiaGastronomico/restaurante3.png",
       "endereco": "5",
       "telefone": "5",
       "horarioFuncionamento": "5"
@@ -27,7 +27,7 @@
     {
       "id": 3,
       "name": "Pigalle",
-      "imagem": "https://cdn.neemo.com.br/uploads/settings_franquia/logo/1434/k6gF8xzw.jpeg",
+      "imagem": "/imgGuiaGastronomico/restaurante1.png",
       "endereco": "5",
       "telefone": "5",
       "horarioFuncionamento": "5"
@@ -35,7 +35,7 @@
     {
       "id": 3,
       "name": "Pigalle",
-      "imagem": "https://cdn.neemo.com.br/uploads/settings_franquia/logo/1434/k6gF8xzw.jpeg",
+      "imagem": "/imgGuiaGastronomico/restaurante2.png",
       "endereco": "5",
       "telefone": "5",
       "horarioFuncionamento": "5"
@@ -43,7 +43,7 @@
     {
       "id": 3,
       "name": "Pigalle",
-      "imagem": "https://cdn.neemo.com.br/uploads/settings_franquia/logo/1434/k6gF8xzw.jpeg",
+      "imagem": "/imgGuiaGastronomico/restaurante3.png",
       "endereco": "5",
       "telefone": "5",
       "horarioFuncionamento": "5"
