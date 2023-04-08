@@ -1,0 +1,112 @@
+{
+  "restaurantes": [
+    {
+      "id": 1,
+      "name": "Mc donalds",
+      "imagem": "/imgGuiaGastronomico/restaurante1.png",
+      "endereco": "2",
+      "telefone": "2",
+      "horarioFuncionamento": "2"
+    },
+    {
+      "id": 2,
+      "name": "Burger King",
+      "imagem": "https://s2.glbimg.com/V0vLGchlI0S7Xll4emaGMIJZSLU=/940x523/e.glbimg.com/og/ed/f/original/2021/01/07/bk-novo_logo.jpg",
+      "endereco": "5",
+      "telefone": "5",
+      "horarioFuncionamento": "5"
+    },
+    {
+      "id": 3,
+      "name": "Pigalle",
+      "imagem": "https://cdn.neemo.com.br/uploads/settings_franquia/logo/1434/k6gF8xzw.jpeg",
+      "endereco": "5",
+      "telefone": "5",
+      "horarioFuncionamento": "5"
+    },
+    {
+      "id": 3,
+      "name": "Pigalle",
+      "imagem": "https://cdn.neemo.com.br/uploads/settings_franquia/logo/1434/k6gF8xzw.jpeg",
+      "endereco": "5",
+      "telefone": "5",
+      "horarioFuncionamento": "5"
+    },
+    {
+      "id": 3,
+      "name": "Pigalle",
+      "imagem": "https://cdn.neemo.com.br/uploads/settings_franquia/logo/1434/k6gF8xzw.jpeg",
+      "endereco": "5",
+      "telefone": "5",
+      "horarioFuncionamento": "5"
+    },
+    {
+      "id": 3,
+      "name": "Pigalle",
+      "imagem": "https://cdn.neemo.com.br/uploads/settings_franquia/logo/1434/k6gF8xzw.jpeg",
+      "endereco": "5",
+      "telefone": "5",
+      "horarioFuncionamento": "5"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "João"
+    },
+    {
+      "id": 2,
+      "name": "Maria"
+    },
+    {
+      "id": 3,
+      "name": "José"
+    },
+    {
+      "user": "Gabriel Borchardt",
+      "area": "Desenvolvedor Full Stack",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "user": "alefjuan",
+      "area": "Desenvolvedor Back End",
+      "password": "alef123",
+      "id": 5
+    },
+    {
+      "user": "Murilo Marçal",
+      "area": "Desenvolvedor Back End",
+      "password": "murilo123",
+      "id": 6
+    },
+    {
+      "user": "Denis",
+      "area": "Engenheiro de Software",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "user": "Leonardo Garcia",
+      "area": "Desenvolvedor Front End",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "user": "Maiara",
+      "area": "Analista de Sistemas",
+      "password": "123",
+      "id": 9
+    }
+  ],
+  "cidades": [
+    {
+      "id": 1,
+      "name": "São Paulo"
+    },
+    {
+      "id": 2,
+      "name": "Rio de Janeiro"
+    }
+  ]
+}
