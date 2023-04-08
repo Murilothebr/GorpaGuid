@@ -23,11 +23,7 @@ class Restaurantes {
   }
 }
 
-const restaurantes = [
-  new Restaurante(1, "Restaurante 1", "/imgGuiaGastronomico/restaurante1.png", "Rua A, 123", "1234-5678", "Seg - Sex: 10h às 22h"),
-  new Restaurante(2, "Restaurante 2", "/imgGuiaGastronomico/restaurante2.png", "Rua B, 456", "9876-5432", "Seg - Sex: 11h às 23h"),
-  new Restaurante(3, "Restaurante 3", "/imgGuiaGastronomico/restaurante3.png", "Rua C, 789", "4567-8901", "Seg - Sex: 12h às 00h"),
-];
+const restaurantes = [];
 
 function criarCardsDeRestaurantes() {
   console.log(restaurantes);

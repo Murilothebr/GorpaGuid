@@ -20,15 +20,12 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
   
-  .card-image {
-    position: relative;
-  }
-  
+
   .card-image img {
-    width: 100%;
+    width: 300px;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    object-fit: cover;
+    object-position: center center;
   }
   
   .status-circle {
