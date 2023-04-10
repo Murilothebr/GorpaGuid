@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 	<title>
-		Guia Gastronomico | Prefeitura de Guarapuava 
+		Guia Gastronomico | Prefeitura de Guarapuava
 	</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,7 +48,7 @@
 	<meta name="theme-color" content="#ffffff">
 	<meta name="google-site-verification" content="sCzEHnE-ce5HQojO9BQs-xst5JreRLNBEGGSYY4HyKo">
 	<link rel="stylesheet" type="text/css" href="/css/1613756303888-style.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/cssGuiaGastro.css">
+	<link rel="stylesheet" type="text/css" href="/css/cssCadastroRestaurante.css">
 
 
 	<script type="text/javascript" async="" src="/img/recaptcha__pt.js.download" crossorigin="anonymous"
@@ -133,12 +133,6 @@
 							<li><a href="http://www.geoguarapuava.com.br/" target="_blank">GeoGuarapuava</a></li>
 
 						</ul>
-					</li>
-					<li>
-						<form action="https://www.guarapuava.pr.gov.br/pesquisa/" method="GET" style="display: inline">
-							<input type="text" name="busca" id="" placeholder="Faça uma busca">
-							<button type="submit" style="vertical-align: middle;"></button>
-						</form>
 					</li>
 				</ul>
 			</div>
@@ -234,19 +228,46 @@
 		</nav>
 	</header>
 
-	<section class="restaurante-menu">
-		<section class="restaurant-cards">
-			<body onload="criarCardsDeRestaurantes()">
-				<section class="restaurante-menu">
-				  <section class="restaurant-cards">
-				  </section>
-				</section>
-				<script src="/Objects/Restaurante.js"></script>
-			  </body>
 
-			  
-	</section>
-	<center> <button>CADASTRAR RESTAURANTE</button> </center>
+	<div class="container d-flex justify-content-center">
+		<form>
+		  <div class="form-group">
+			<label for="id">Id:</label>
+			<input type="text" class="form-control" id="id" name="id">
+		  </div>
+	  
+		  <div class="form-group">
+			<label for="name">Nome:</label>
+			<input type="text" class="form-control" id="name" name="name">
+		  </div>
+	  
+		  <div class="form-group">
+			<label for="profile-pic">Logo Restaurante:</label>
+			<input type="file" class="form-control-file form-control" id="inputPhoto" name="photo" accept="image/*">
+		  </div>
+
+		  <div class="form-group">
+			<label for="address">Endereço:</label>
+			<input type="text" class="form-control" id="address" name="address">
+		  </div>
+	  
+		  <div class="form-group">
+			<label for="phone">Telefone:</label>
+			<input type="tel" class="form-control" id="phone" name="phone">
+		  </div>
+	  
+		  <div class="form-group">
+			<label for="opening_hours">Horário de Funcionamento:</label>
+			<input type="text" class="form-control" id="opening_hours" name="opening_hours">
+		  </div>
+	  
+		  <div class="form-group text-center">
+			<input type="submit" class="btn btn-primary" value="Adicionar Restaurante">
+		  </div>
+		</form>
+	  </div>
+
+
 	<footer>
 		<div class="scroll-top" style="right: -100px; display: none;">
 			<a href="javascript:void(0);">

@@ -243,8 +243,16 @@
 
 			  
 	</section>
-	<center> <button class="btn btn-primary">CADASTRAR RESTAURANTE</button> </center>
+	<center> <button href="cadastroRestaurante.html" id="pagina-cadastro" class="btn btn-primary">CADASTRAR RESTAURANTE</button> </center>
+
+	<script>
+		var botao = document.getElementById("pagina-cadastro");
+		botao.addEventListener("click", function() {
+		  window.location.href = "cadastroRestaurante.html";
+		});
+	  </script>
 	<br>
+
 	<footer>
 		<div class="scroll-top" style="right: -100px; display: none;">
 			<a href="javascript:void(0);">
