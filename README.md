@@ -54,5 +54,5 @@
 
 # Objetos
 #### X Criar objeto usando função construtora ou notação literal
-(Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
+#### (Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
 #### Usar herança prototipal nativa ou herança de classes do ES6
