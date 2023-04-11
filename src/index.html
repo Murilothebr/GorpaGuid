@@ -248,7 +248,13 @@
 	<script>
 		var botao = document.getElementById("pagina-cadastro");
 		botao.addEventListener("click", function() {
-		  window.location.href = "cadastroRestaurante.html";
+			if(confirm("Deseja mesmo cadastrar um restaurante?") == true)
+			{
+				window.location.href = "cadastroRestaurante.html";
+			}
+			else{
+				window.alert("Ok, Pode aproveitar o site!");
+			};
 		});
 	  </script>
 	<br>
