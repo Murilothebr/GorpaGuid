@@ -26,7 +26,6 @@ class Restaurantes {
 const restaurantes = [];
 
 function criarCardsDeRestaurantes() {
-  console.log(restaurantes);
   const container = document.querySelector(".restaurant-cards");
   restaurantes.forEach((restaurante) => {
     const card = `
@@ -68,6 +67,4 @@ fetch('/db.json')
   })
   .catch(error => console.error(error));
 
-function alerta(){
-  window.alert('alerta');
-}
+

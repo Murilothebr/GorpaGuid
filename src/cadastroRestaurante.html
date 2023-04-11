@@ -231,42 +231,59 @@
 
 	<div class="container d-flex justify-content-center">
 		<form>
-		  <div class="form-group">
-			<label for="id">Id:</label>
-			<input type="text" class="form-control" id="id" name="id">
-		  </div>
-	  
-		  <div class="form-group">
-			<label for="name">Nome:</label>
-			<input type="text" class="form-control" id="name" name="name">
-		  </div>
-	  
-		  <div class="form-group">
-			<label for="profile-pic">Logo Restaurante:</label>
-			<input type="file" class="form-control-file form-control" id="inputPhoto" name="photo" accept="image/*">
-		  </div>
+			<div class="form-group">
+				<label for="id">Id:</label>
+				<input type="text" class="form-control" id="id" name="id">
+			</div>
 
-		  <div class="form-group">
-			<label for="address">Endereço:</label>
-			<input type="text" class="form-control" id="address" name="address">
-		  </div>
-	  
-		  <div class="form-group">
-			<label for="phone">Telefone:</label>
-			<input type="tel" class="form-control" id="phone" name="phone">
-		  </div>
-	  
-		  <div class="form-group">
-			<label for="opening_hours">Horário de Funcionamento:</label>
-			<input type="text" class="form-control" id="opening_hours" name="opening_hours">
-		  </div>
-	  
-		  <div class="form-group text-center">
-			<input type="submit" class="btn btn-primary" value="Adicionar Restaurante">
-		  </div>
+			<div class="form-group">
+				<label for="name">Nome:</label>
+				<input type="text" class="form-control" id="name" name="name">
+			</div>
+
+			<div class="form-group">
+				<label for="profile-pic">Logo Restaurante:</label>
+				<input type="file" class="form-control-file form-control" id="inputPhoto" name="photo" accept="image/*">
+			</div>
+
+			<div class="form-group">
+				<label for="address">Endereço:</label>
+				<input type="text" class="form-control" id="address" name="address">
+			</div>
+
+			<div class="form-group">
+				<label for="phone">Telefone:</label>
+				<input type="tel" class="form-control" id="phone" name="phone">
+			</div>
+
+			<div class="form-group">
+				<label for="opening_hours">Horário de Funcionamento:</label>
+				<input type="text" class="form-control" id="opening_hours" name="opening_hours">
+			</div>
+
+			<div class="form-group text-center">
+				<input type="submit" class="btn btn-primary" value="Adicionar Restaurante">
+			</div>
 		</form>
-	  </div>
+	</div>
 
+	<script>
+
+		var getElementName = function (elementName) {
+			const up_names = document.getElementsByName(elementName);
+			return "name";
+		}
+
+		setInterval(function () {
+			console.log(getElementName("name"));
+		}, 1000);
+
+		(setTimeout(() => {
+			let email = window.prompt("digite o seu email do seu restaurante");
+		}, "2500"));
+
+
+	</script>
 
 	<footer>
 		<div class="scroll-top" style="right: -100px; display: none;">
