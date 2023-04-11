@@ -269,18 +269,26 @@
 
 	<script>
 
-		var getElementName = function (elementName) {
+		let getElementName = function (elementName) {
 			const up_names = document.getElementsByName(elementName);
-			return "name";
+			return "função anonima com retorno : " + up_names[0].tagName;
 		}
 
-		setInterval(function () {
-			console.log(getElementName("name"));
+		setInterval(
+			function () 
+			{
+				function loging(methodName){
+					console.log(methodName);
+					console.log("Função com parametro de função");
+				};
+
+				loging(getElementName("name"));
 		}, 1000);
 
 		(setTimeout(() => {
 			let email = window.prompt("digite o seu email do seu restaurante");
 		}, "2500"));
+
 
 
 	</script>
