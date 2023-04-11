@@ -18,6 +18,14 @@ class Restaurantes {
     this.restaurantes.push(restaurante);
   }
 
+  removerRestaurante(id) {
+    this.restaurantes.push(restaurante);
+  }
+
+  getRestauranteById(restauranteId) {
+    return this.restaurantes.findIndex((id) => id == restauranteId);
+  }
+
   getRestaurantes() {
     return this.restaurantes;
   }
