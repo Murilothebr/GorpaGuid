@@ -37,7 +37,7 @@ function criarCardsDeRestaurantes() {
     </div>
   </div>
     `;
-    
+
     container.innerHTML += card;
   });
 }
