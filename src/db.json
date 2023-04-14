@@ -47,136 +47,43 @@
       "endereco": "5",
       "telefone": "5",
       "horarioFuncionamento": "5"
-    },
-    {
-      "id": "12",
-      "name": "Murilo Nunes Marcal",
-      "imagem": "/imgGuiaGastronomico/outback.jpg",
-      "endereco": "Rua Sérgio Gasparetto, 41, 41",
-      "telefone": "42984214715",
-      "horarioFuncionamento": "12"
-    },
-    {
-      "id": "21",
-      "name": "Murilo Nunes Marcal",
-      "imagem": "/imgGuiaGastronomico/outback.jpg",
-      "endereco": "Rua Sérgio Gasparetto, 41, 41",
-      "telefone": "42984214715",
-      "horarioFuncionamento": ""
-    },
-    {
-      "id": "25",
-      "name": "Murilo Nunes Marcal",
-      "imagem": "/imgGuiaGastronomico/restaurante2.png",
-      "endereco": "Rua Sérgio Gasparetto, 41, 41",
-      "telefone": "42984214715",
-      "horarioFuncionamento": ""
-    },
-    {
-      "id": "90",
-      "name": "90",
-      "imagem": "/imgGuiaGastronomico/restaurante2.png",
-      "endereco": "Rua Sérgio Gasparetto, 41, 41",
-      "telefone": "42984214715",
-      "horarioFuncionamento": "12"
-    },
-    {
-      "id": "89",
-      "name": "Murilo Nunes Marcal",
-      "imagem": "/imgGuiaGastronomico/outback.jpg",
-      "endereco": "Rua Sérgio Gasparetto, 41, 41",
-      "telefone": "42984214715",
-      "horarioFuncionamento": "2131"
-    },
-    {
-      "id": "78",
-      "name": "Murilo Nunes Marcal",
-      "imagem": "/imgGuiaGastronomico/outback.jpg",
-      "endereco": "Rua Sérgio Gasparetto, 41, 41",
-      "telefone": "42984214715",
-      "horarioFuncionamento": "12"
-    },
-    {
-      "id": "30",
-      "name": "31",
-      "imagem": "/imgGuiaGastronomico/outback.jpg",
-      "endereco": "3121",
-      "telefone": "2121",
-      "horarioFuncionamento": "212131"
-    },
-    {
-      "id": "42",
-      "name": "321",
-      "imagem": "/imgGuiaGastronomico/restaurante1.png",
-      "endereco": "",
-      "telefone": "",
-      "horarioFuncionamento": ""
-    },
-    {
-      "id": "65",
-      "name": "Murilo Nunes Marcal",
-      "imagem": "/imgGuiaGastronomico/restaurante3.png",
-      "endereco": "Rua Sérgio Gasparetto, 41, 41",
-      "telefone": "42984214715",
-      "horarioFuncionamento": ""
-    },
-    {
-      "id": "54",
-      "name": "Murilo Nunes Marcal",
-      "imagem": "/imgGuiaGastronomico/outback.jpg",
-      "endereco": "Rua Sérgio Gasparetto, 41, 41",
-      "telefone": "42984214715",
-      "horarioFuncionamento": ""
     }
   ],
   "users": [
     {
       "id": 1,
-      "name": "João"
+      "name": "João",
+      "email": "",
+      "telefone": "",
+      "restaurante": "" 
     },
     {
-      "id": 2,
-      "name": "Maria"
+      "id": 1,
+      "name": "João",
+      "email": "",
+      "telefone": "",
+      "restaurante": "" 
     },
     {
-      "id": 3,
-      "name": "José"
+      "id": 1,
+      "name": "João",
+      "email": "",
+      "telefone": "",
+      "restaurante": "" 
     },
     {
-      "user": "Gabriel Borchardt",
-      "area": "Desenvolvedor Full Stack",
-      "password": "123",
-      "id": 4
+      "id": 1,
+      "name": "João",
+      "email": "",
+      "telefone": "",
+      "restaurante": "" 
     },
     {
-      "user": "alefjuan",
-      "area": "Desenvolvedor Back End",
-      "password": "alef123",
-      "id": 5
-    },
-    {
-      "user": "Murilo Marçal",
-      "area": "Desenvolvedor Back End",
-      "password": "murilo123",
-      "id": 6
-    },
-    {
-      "user": "Denis",
-      "area": "Engenheiro de Software",
-      "password": "123",
-      "id": 7
-    },
-    {
-      "user": "Leonardo Garcia",
-      "area": "Desenvolvedor Front End",
-      "password": "123",
-      "id": 8
-    },
-    {
-      "user": "Maiara",
-      "area": "Analista de Sistemas",
-      "password": "123",
-      "id": 9
+      "id": 1,
+      "name": "João",
+      "email": "",
+      "telefone": "",
+      "restaurante": "" 
     }
   ],
   "cidades": [

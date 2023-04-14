@@ -284,9 +284,9 @@
 					if (!response.ok) {
 						throw new Error(response.statusText);
 					}
-					return "response OK : " + response.ok;
+					return "response OK : " + response.ok.toString();
 				})
-				.then(data => console.log(data))
+				.then(data => console.log(data.toString().toUpperCase()))
 				.catch(error => console.error(error));
 		}
 
@@ -296,11 +296,10 @@
 			enviar.addEventListener('click', (event) => {
 				event.preventDefault();
 
-				// Verifica se todos os campos obrigatórios foram preenchidos
 				if (document.getElementById('name').checkValidity() &&
 					document.getElementById('inputPhoto').checkValidity() &&
 					document.getElementById('address').checkValidity() &&
-					document.getElementById('phone').checkValidity()) {
+					document.phone.checkValidity()) {
 
 					const dadosDoFormulario = {
 						id: document.getElementById('id').value,
@@ -313,9 +312,9 @@
 
 					console.log(enviar.id)
 					console.log(status(dadosDoFormulario));
-
-					// Envia o formulário se todos os campos estiverem preenchidos
 					document.getElementById('form').submit();
+
+					window.alert("Cadastro Concluido");
 
 				} else {
 					alert('Por favor, preencha todos os campos obrigatórios.');
