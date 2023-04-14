@@ -30,32 +30,32 @@
 # Eventos
 #### X Evento de carregamento do documento - onload
 #### X Evento de movimento do mouse
-#### Evento de teclado - usar charCode ou keyCode
-#### Eventos de formulário - usar onfocus e onblur
-#### Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
+#### X Evento de teclado - usar charCode ou keyCode
+#### X Eventos de formulário - usar onfocus e onblur
+#### X Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
 #### Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)
 
 # Acesso aos elementos DOM do HTML
 #### Via referência DOM pelo id do elemento HTML - acesso sem uso do getElementByID ou querySelector, o id do objeto DOM é o próprio nome da variável
 #### X Via getElementByID()
 #### X Via getElementsByName()
-#### Via getElementsByTagName()
+#### X Via getElementsByTagName()
 #### Via seletores CSS usados na função querySelector() ou querySelectorAll()
 	
 # Tratadores de Evento
-#### Especificar o tratador de evento inline - registro do evento no HTML
-#### Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
+#### X Especificar o tratador de evento inline - registro do evento no HTML
+#### X Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
 #### X Especificar o tratador de evento com a função addEventListener - registro do evento no JS
 #### X Usar o operador this em funções tratadoras de eventos.
 	
 # Objetos Nativos
 #### X Usar pelo menos 3 métodos de manipulação de array (findIndex, push, foreach)
 #### X Usar laço de repetição (for..in ou for..of ou forEach)
-#### Usar pelo menos 3 métodos para manipulação de string
-#### String Template - a String com crase e ${}
-#### Manipulação do CSS de forma nativa via atributo style e classList
+#### X Usar pelo menos 3 métodos para manipulação de string
+#### X String Template - a String com crase e ${}
+#### X Manipulação do CSS de forma nativa via atributo style e classList
 
 # Objetos
 #### X Criar objeto usando função construtora ou notação literal
-#### (Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
-#### Usar herança prototipal nativa ou herança de classes do ES6
+#### X (Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
+#### X Usar herança prototipal nativa ou herança de classes do ES6
