@@ -275,14 +275,28 @@
 
 		enviar.addEventListener('click', (event) => {
 			event.preventDefault();
-
-			const dadosDoFormulario = {
-				nome: window.nome.value,
-				email: window.email.value
-			};
-
-			console.log(dadosDoFormulario);
+			console.log();
 		});
+
+		let status = function (data) {
+			fetch('http://localhost:3000/restaurantes', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(data)
+			})
+				.then(response => {
+					if (!response.ok) {
+						throw new Error(response.statusText);
+					}
+					return "response OK : " + response.ok;
+				})
+				.then(data => console.log(data))
+				.catch(error => console.error(error));
+		}
+
+		console.log(status(data = { id: "100", name: "John Doe" }))
 
 
 		let getElementName = function (elementName) {

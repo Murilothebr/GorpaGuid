@@ -47,6 +47,16 @@
       "endereco": "5",
       "telefone": "5",
       "horarioFuncionamento": "5"
+    },
+    {
+      "id": "5"
+    },
+    {
+      "id": "10"
+    },
+    {
+      "id": "100",
+      "name": "John Doe"
     }
   ],
   "users": [
