@@ -36,7 +36,7 @@
 #### Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)
 
 # Acesso aos elementos DOM do HTML
-#### Via referência DOM pelo id do elemento HTML - acesso sem uso do getElementByID ou querySelector, o id do objeto DOM é o próprio nome da variável
+#### X Via referência DOM pelo id do elemento HTML - acesso sem uso do getElementByID ou querySelector, o id do objeto DOM é o próprio nome da variável
 #### X Via getElementByID()
 #### X Via getElementsByName()
 #### X Via getElementsByTagName()
