@@ -9,7 +9,8 @@ class Restaurante {
   }
 }
 
-class Restaurantes {
+class Restaurantes extends Restaurante {
+  restaurantes = [];
   constructor() {
     this.restaurantes = [];
   }
@@ -18,8 +19,8 @@ class Restaurantes {
     this.restaurantes.push(restaurante);
   }
 
-  removerRestaurante(id) {
-    this.restaurantes.push(restaurante);
+  removerRestaurante(restauranteId) {
+    this.restaurantes.findIndex((id) => id == restauranteId).splice();
   }
 
   getRestauranteById(restauranteId) {
