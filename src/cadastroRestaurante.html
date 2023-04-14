@@ -186,19 +186,8 @@
 											target="_blank">Leis Municipais</a></li>
 								</ul>
 							</li>
-							<li class="dropdown">
-								<a href="https://www.guarapuava.pr.gov.br/midias/#" class="dropdown-toggle"
-									data-toggle="dropdown" role="button" aria-haspopup="true"
-									aria-expanded="false">Editais <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<!--<li><a href="/portal-da-transparencia/licitacoes/">Editais de Licitação</a></li>-->
-									<li><a href="https://guarapuava.atende.net/autoatendimento/servicos/consulta-de-licitacoes/detalhar/1"
-											target="_blank">Editais de Licitação</a></li>
-									<li><a href="https://www.guarapuava.pr.gov.br/servicos/concursos-2/">Editais de
-											Concurso</a></li>
-									<li><a href="https://www.guarapuava.pr.gov.br/pss-cis5rs/">Editais CIS5RS</a></li>
-								</ul>
-							</li>
+
+							<li><a href="/index.html">GorpaGuide</a></li>
 
 							<li><a href="https://www.guarapuava.pr.gov.br/portal-covid-19/" target="_blank"
 									style="color:#FF0000;">
@@ -270,13 +259,18 @@
 	</div>
 
 	<script>
+		(setTimeout(() => {
 
-		const enviar = window.enviar;
+			let email = "";
 
-		enviar.addEventListener('click', (event) => {
-			event.preventDefault();
-			console.log();
-		});
+			while (email.length < 8) {
+				email = window.prompt("Digite o seu email do seu restaurante!").trim();
+
+				if (email.length < 8) {
+					this.window.alert("Email muito curto: " + email.toUpperCase());
+				}
+			}
+		}, "2500"));
 
 		let status = function (data) {
 			fetch('http://localhost:3000/restaurantes', {
@@ -296,8 +290,62 @@
 				.catch(error => console.error(error));
 		}
 
-		console.log(status(data = { id: "100", name: "John Doe" }))
+		document.addEventListener('DOMContentLoaded', function () {
+			const enviar = document.getElementById('enviar');
 
+			enviar.addEventListener('click', (event) => {
+				event.preventDefault();
+
+				// Verifica se todos os campos obrigatórios foram preenchidos
+				if (document.getElementById('name').checkValidity() &&
+					document.getElementById('inputPhoto').checkValidity() &&
+					document.getElementById('address').checkValidity() &&
+					document.getElementById('phone').checkValidity()) {
+
+					const dadosDoFormulario = {
+						id: document.getElementById('id').value,
+						name: document.getElementById('name').value,
+						imagem: "/imgGuiaGastronomico/" + document.getElementById('inputPhoto').files[0].name,
+						endereco: document.getElementById('address').value,
+						telefone: document.getElementById('phone').value,
+						horarioFuncionamento: document.getElementsByName('opening_hours')[0].value
+					};
+
+					console.log(enviar.id)
+					console.log(status(dadosDoFormulario));
+
+					// Envia o formulário se todos os campos estiverem preenchidos
+					document.getElementById('form').submit();
+
+				} else {
+					alert('Por favor, preencha todos os campos obrigatórios.');
+				}
+			});
+		});
+
+
+		document.addEventListener("keydown", function (event) {
+			if (event.keyCode === 13) { // Código da tecla Enter é 13
+				var enterButtons = document.getElementsByTagName("button");
+				for (var i = 0; i < enterButtons.length; i++) {
+					if (enterButtons[i].getAttribute("tag") === "enter") {
+						enterButtons[i].focus();
+						console.log(enterButtons)
+						break;
+					}
+				}
+			}
+		});
+
+		function focusId() {
+			element = document.getElementById("id").style.background = "green";
+		}
+		document.getElementById("id").addEventListener("focus", focusId);
+
+		function blurId() {
+			element = document.getElementById("id").style.background = "white";
+		}
+		document.getElementById("id").addEventListener("blur", blurId);
 
 		let getElementName = function (elementName) {
 			const up_names = document.getElementsByName(elementName.toLowerCase());
@@ -313,32 +361,6 @@
 
 				loging(getElementName("name"));
 			}, 10000);
-
-
-		(setTimeout(() => {
-
-			let email = "";
-
-			while (email.length < 8) {
-				email = window.prompt("Digite o seu email do seu restaurante!").trim();
-
-				if (email.length < 8) {
-					this.window.alert("Email muito curto: " + email.toUpperCase());
-				}
-			}
-		}, "2500"));
-
-		document.addEventListener("keydown", function (event) {
-			if (event.keyCode === 13) { // Código da tecla Enter é 13
-				var enterButtons = document.getElementsByTagName("button");
-				for (var i = 0; i < enterButtons.length; i++) {
-					if (enterButtons[i].getAttribute("tag") === "enter") {
-						enterButtons[i].focus();
-						break;
-					}
-				}
-			}
-		});
 
 	</script>
 	<script src="/Objects/restaurante.js"></script>
