@@ -21,7 +21,7 @@
 #### X Função anônima com argumento
 #### X Função anônima sem argumento
 #### X Função anônima com retorno
-#### X Função auto-executável - não será aceita a mesma do Module Pattern (prompt-email)
+#### Função auto-executável - não será aceita a mesma do Module Pattern (prompt-email)
 #### X Função com nome
 #### X Função aninhada/local - declarar uma função dentro de outra
 #### X Passagem de uma função como parâmetro para outra função - ambas as funções precisam ser implementadas pelo aluno
@@ -32,7 +32,7 @@
 #### X Evento de movimento do mouse
 #### X Evento de teclado - usar charCode ou keyCode
 #### X Eventos de formulário - usar onfocus e onblur
-#### X Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
+#### Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
 #### Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)
 
 # Acesso aos elementos DOM do HTML
@@ -44,14 +44,14 @@
 	
 # Tratadores de Evento
 #### X Especificar o tratador de evento inline - registro do evento no HTML
-#### X Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
+#### Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
 #### X Especificar o tratador de evento com a função addEventListener - registro do evento no JS
 #### X Usar o operador this em funções tratadoras de eventos.
 	
 # Objetos Nativos
 #### X Usar pelo menos 3 métodos de manipulação de array (findIndex, push, foreach)
 #### X Usar laço de repetição (for..in ou for..of ou forEach)
-#### X Usar pelo menos 3 métodos para manipulação de string
+####   Usar pelo menos 3 métodos para manipulação de string
 #### X String Template - a String com crase e ${}
 #### X Manipulação do CSS de forma nativa via atributo style e classList
 
